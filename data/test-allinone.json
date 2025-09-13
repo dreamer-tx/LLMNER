@@ -1,0 +1,12 @@
+[
+    {
+        "instruction": "Your task is to annotate named entities in the text and classify them according to the predefined categories.",
+        "input": "Medical Named Entity Recognition Task: Please annotate the medical entities in the text below:\nThere is a single methionine codon-initiated open reading frame of 1,458 nt in frame with a homeobox and a CAX repeat , and the open reading frame is predicted to encode a protein of 51,659 daltons.\nEntity types include: protein, RNA, DNA, cell_type, cell_line\nThe definitions of the entity types are as follows, Protein: In the GENIA dataset, a protein refers to entities that encompass genes and gene products, including proteins and RNA, as well as related entities such as domains, promoters, and complexes. RNA: In the GENIA dataset, RNA entities are annotated as gene products, which are part of a single class of entities that includes genes, proteins, and related entities. DNA: In the GENIA dataset, DNA entities are annotated as a distinct class of biological entities, separate from genes and gene products. Cell_type: In the GENIA dataset, cell types are annotated as distinct biological entities, recognized for their specific roles and characteristics within the biological context of the text. Cell_line: In the GENIA dataset, a cell line is defined as a genetically stable and homogeneous population of cultured cells, following the definition of Cell Line Ontology (CLO)",
+        "output": ""
+    },
+    {
+        "instruction": "你的任务是在CMEEE-V2数据集文本中标注命名实体，并按照CMEEE-V2数据集预定义的类别进行分类。",
+        "input": "医学命名实体识别任务：请在下面的文本中标注医疗实体：\n3.学龄前期原发性溃疡逐渐增多，此期腹痛症状明显，多位于脐周，呈间歇性发作，与饮食关系不明确，恶心、呕吐与上消化道出血也较常见。\n实体类型包括：微生物类，医疗设备，药物，医疗程序，临床表现，身体，医学检验项目，科室，疾病。\n实体类型的定义分别为，微生物类：包括细菌、病毒、真菌以及一些小型的原生生物、显微藻类等在内的一大类生物群体，另外包括微生物类产生的毒素、激素、酶等其对应的UMLS语义类型有细菌、真菌等。医疗设备：指为诊断或治疗所使用的工具、器具、仪器等。主要包括检查设备、治疗设备，其对应的UMLS语义类型有医疗设备、药物传输设备等。药物：指用来预防、治疗及诊断疾病的物质，其对应的UMLS语义类型有临床药物、抗生素等。医疗程序：指为诊断或治疗所采取的措施、方法及过程。主要包括检查程序、治疗或预防程序，其对应的UMLS语义类型有化验过程、治疗或预防过程等。临床表现：是疾病的表现，泛指患者不适感觉以及通过检查得知的异常表现。主要包括症状、体征，其对应的UMLS语义类型有症状或体征、异常检查结果等。身体：指细胞、组织、及位于人体特定区域的由细小物质成分组合而成的结构、器官、系统、肢体，另外包括身体产生或解剖身体产生的物质等。主要包括身体部位、身体物质，其对应的UMLS语义类型有身体部位、组织、组织成分）等。医学检验项目：指检查涉及到的体液检查项目、重要生理指标以及其他检查项目，本文规定医疗检验项目主要针对人体而言，是能够通过设备或实验检测出的项目，并且是能够被量化，有其对应的测量值或指标值。其对应的 UMLS语义类型有实验室检查等。科室：指医院或医疗机构所设有的科室，其对应的UMLS语义类型有医疗保健相关组织等。疾病：是指导致病人处于非健康状态的原因或者医生对病人做出的诊断，并且是能够被治疗的。包括疾病或综合征、中毒或受伤、器官或细胞受损，其对应的UMLS语义类型有疾病或者综合征、中毒或受伤等。",
+        "output": ""
+    }
+]
