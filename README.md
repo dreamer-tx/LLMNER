@@ -1,4 +1,3 @@
-````markdown
 # LLMNER
 
 An experimental repository for **Named Entity Recognition (NER)** based on **Large Language Models (LLMs)**.
