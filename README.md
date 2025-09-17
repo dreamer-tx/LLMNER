@@ -38,6 +38,17 @@ source .venv/bin/activate    # macOS / Linux
 # .venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 ```
+---
+## Usage
+
+
+```bash
+cd train
+python glm4_qlora-zh-en.py
+
+cd chat
+python demo-glm4-chat-mine.py
+```
 
 ---
 
